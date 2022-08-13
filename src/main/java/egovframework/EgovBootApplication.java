@@ -21,7 +21,6 @@ public class EgovBootApplication {
 		springApplication.run(args);
 
 		System.out.println("##### EgovBootApplication End #####");
-        System.out.println("##### EgovBootApplication End #####");
 	}
 
 }

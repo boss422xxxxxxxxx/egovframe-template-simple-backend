@@ -22,5 +22,4 @@ public class EgovBootApplication {
 
 		System.out.println("##### EgovBootApplication End #####");
 	}
-
 }

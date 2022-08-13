@@ -13,14 +13,14 @@ import egovframework.com.config.EgovWebApplicationInitializer;
 @Import({EgovWebApplicationInitializer.class})
 public class EgovBootApplication {
 	public static void main(String[] args) {
-		System.out.println("##### EgovBootApplicationEgovBootApplication Start #####");
+		System.out.println("##### EgovBootApplication Start #####");
 
 		SpringApplication springApplication = new SpringApplication(EgovBootApplication.class);
 		springApplication.setBannerMode(Banner.Mode.OFF);
 		//springApplication.setLogStartupInfo(false);
 		springApplication.run(args);
 
-		//재품ㄷ레9ㅐㅈㄷ레ㅐㅁ레ㅐㅣ;ㅣㅔㅇ레ㅣㅁㄷㄻㄹㄻㅁㄹㄷㅈ
 		System.out.println("##### EgovBootApplication End #####");
 	}
+
 }
